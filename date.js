@@ -1,7 +1,6 @@
 #!/administrator/bin/env node
 
 const arguments = process.argv.slice(2).map(n => n);
-console.log(arguments);
 
 const date = new Date();
 
